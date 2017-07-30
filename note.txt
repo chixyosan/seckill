@@ -1,0 +1,2 @@
+1.创建项目：mvn archetype:generate -DarchetypeCatalog=internal -DgroupId=com.seckill -DartifactId=seckill -DarchetypeArtifactId=maven-archetype-webapp
+2.
