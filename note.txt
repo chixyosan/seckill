@@ -18,3 +18,4 @@
           b.spring DAO层依赖:spring-jdbc,spring-tx
           c.spring web相关的依赖:spring-web,spring-webmvc
           d.spring test相关的依赖:spring-test
+3.建表 见schema.sql文件
