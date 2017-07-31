@@ -1,21 +1,20 @@
-1.´´½¨ÏîÄ¿£ºmvn archetype:generate -DarchetypeCatalog=internal -DgroupId=com.seckill -DartifactId=seckill -DarchetypeArtifactId=maven-archetype-webapp
-2.pom.xmlÅäÖÃ
-  junit£º4.11
-  1).ÈÕÖ¾ javaÈÕÖ¾£ºslf4j,log4j,logback,common-logging
-          slf4j:¹æ·¶/½Ó¿Ú
-          ÈÕÖ¾ÊµÏÖ£ºlog4j,logback,common-logging
-          ±¾ÏîÄ¿Ê¹ÓÃ£ºslf4j++logback
-          slf4j-api,logback-core,logback-classic
-          (logback-classicÊµÏÖslf4j½Ó¿Ú²¢ÕûºÏ)
-  2).Êı¾İ¿âÏà¹ØµÄÒÀÀµ:
+1.åˆ›å»ºé¡¹ç›®mvn archetype:generate -DarchetypeCatalog=internal -DgroupId=com.seckill -DartifactId=seckill -DarchetypeArtifactId=maven-archetype-webapp
+2.pom.xmlé…ç½®
+  junitï¼š4.11
+  1).æ—¥å¿— javaæ—¥å¿—ï¼šslf4j,log4j,logback,common-logging
+               slf4j:è§„èŒƒ/æ¥å£
+               æ—¥å¿—å®ç°ï¼šlog4j,logback,common-logging
+               æœ¬é¡¹ç›®ä½¿ç”¨ï¼šslf4j+logback
+     slf4j-api,logback-core,logback-classic(å®ç°slf4jæ¥å£å¹¶æ•´åˆ)
+  2).æ•°æ®åº“ç›¸å…³çš„ä¾èµ–:
           mysql-connector-java,c3p0
-  3).DAO¿ò¼Ü£ºMybatisÒÀÀµ
-          mybatis,mybatis-spring(Mybatis×ÔÉíÊµÏÖµÄspringÕûºÏÒÀÀµ)
-  4).servlet web Ïà¹ØÒÀÀµ:
+  3).DAOæ¡†æ¶ï¼šMybatisä¾èµ–
+          mybatis,mybatis-spring(Mybatisè‡ªèº«å®ç°çš„springæ•´åˆä¾èµ–)
+  4).servlet web ç›¸å…³ä¾èµ–:
           standard,jstl,jackson-databind,javax.servlet-api
-  5).springÒÀÀµ:
-          a.springºËĞÄÒÀÀµ:spring-core,spring-beans,spring-context
-          b.spring DAO²ãÒÀÀµ:spring-jdbc,spring-tx
-          c.spring webÏà¹ØµÄÒÀÀµ:spring-web,spring-webmvc
-          d.spring testÏà¹ØµÄÒÀÀµ:spring-test
-3.½¨±í ¼ûschema.sqlÎÄ¼ş
+  5).springä¾èµ–:
+          a.springæ ¸å¿ƒä¾èµ–:spring-core,spring-beans,spring-context
+          b.spring DAOå±‚ä¾èµ–:spring-jdbc,spring-tx
+          c.spring webç›¸å…³çš„ä¾èµ–:spring-web,spring-webmvc
+          d.spring testç›¸å…³çš„ä¾èµ–:spring-test
+3.æ•°æ®åº“è„šæœ¬è§schema.sqlæ–‡ä»¶
