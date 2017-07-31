@@ -2,6 +2,12 @@ package org.seckill.entity;
 
 import java.util.Date;
 
+/**
+ * 
+ * @ClassName: Seckill 
+ * @author: zhangze
+ * @date: 2017/07/31 15:25:44
+ */
 public class Seckill {
     private long seckillId;
     private String naem;
